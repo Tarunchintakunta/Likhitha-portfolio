@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Likhitha Mallarapu",
   title: "Data Scientist & ML Engineer",
-  tagline: "From raw flat files to real-time inference endpoints",
+  tagline: "From raw flat files to real-time inference endpoints. 2+ years shipping production ML systems, ETL pipelines, and analytics platforms across 3M+ record datasets.",
   email: "lmallara@asu.edu",
   phone: "(623) 200-3955",
   location: "Tempe, Arizona",
@@ -31,11 +31,11 @@ export const experience = [
     location: "Hyderabad, India",
     period: "Jun 2022 – May 2023",
     description:
-      "Leveraged Talend DI and SQL Server to perform data wrangling and quality assessments across disparate datasets, ensuring high-fidelity inputs for downstream models.",
+      "Leveraged Talend DI and SQL Server to perform data wrangling and quality assessments across disparate datasets, ensuring high-fidelity, validated inputs for downstream analytical models and reporting pipelines.",
     bullets: [
-      "Performed data wrangling and quality assessments across disparate datasets ensuring validated inputs for analytical models and reporting pipelines.",
-      "Engineered robust feature sets by creating calculated columns and named queries within SSAS, improving predictive analysis accuracy.",
-      "Documented technical specifications for ETL frameworks and established standardized naming conventions, improving team-wide data governance.",
+      "Leveraged Talend DI and SQL Server to perform data wrangling and quality assessments across disparate datasets, ensuring high-fidelity, validated inputs for downstream analytical models.",
+      "Engineered robust feature sets by creating calculated columns and named queries within SSAS, directly improving predictive analysis accuracy and supporting senior data scientists in model development workflows.",
+      "Documented technical specifications for ETL frameworks and established standardized naming conventions for flat file structures, improving team-wide data governance and reducing onboarding overhead.",
     ],
     tech: ["Talend DI", "SQL Server", "SSAS", "Python", "Excel"],
   },
@@ -84,14 +84,28 @@ export const projects = [
     tech: ["Python", "Scikit-learn", "DataRobot", "Statistical Analysis"],
     color: "#f472b6",
   },
+  {
+    title: "WALL-TR",
+    subtitle: "A Garbage Collection Bot",
+    period: "2024",
+    description:
+      "Designed an IoT robot powered by deep learning with 87% accuracy in object tracking, manipulation, and autonomous docking using OpenCV and backtracking algorithms.",
+    bullets: [
+      "Built deep learning-powered object tracking with 87% accuracy using OpenCV and backtracking algorithms.",
+      "Applied Kalman filters and optimized pre-trained models for real-time autonomous navigation and docking.",
+      "Simulated movements in ROS with ANSYS to reduce development time and computational costs by 30%.",
+    ],
+    tech: ["Python", "OpenCV", "ROS", "ANSYS", "Deep Learning"],
+    color: "#3b82f6",
+  },
 ]
 
 export const skills = {
-  "Languages & Tools": ["Python", "SQL", "R", "PySpark", "Bash", "Git", "Advanced Excel"],
-  "Machine Learning": ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "CNNs", "LSTMs"],
-  "LLMs & MLOps": ["LangChain", "RAG", "Hugging Face", "Docker", "MLflow", "SageMaker"],
-  "Data Engineering & BI": ["Talend DI", "SSAS OLAP", "dbt", "Kafka", "Tableau", "Power BI"],
-  "Cloud Platforms": ["AWS S3", "SageMaker", "GCP Vertex AI", "BigQuery", "Azure ML"],
+  "Languages & Tools": ["Python (Pandas, NumPy)", "SQL (Snowflake, SQL Server)", "R", "PySpark", "Bash", "Git", "Advanced Excel", "Linux"],
+  "Machine Learning": ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "CNNs", "LSTMs", "Classification", "Anomaly Detection", "Time-Series Forecasting", "Feature Engineering", "Model Evaluation"],
+  "LLMs & MLOps": ["LangChain", "RAG", "Prompt Engineering", "AI Agents", "Hugging Face", "Docker", "Kubernetes", "MLflow", "CI/CD Pipelines", "AWS SageMaker", "Databricks", "Drift Detection"],
+  "Data Engineering & BI": ["ETL Pipelines (Talend DI)", "SSAS OLAP Cubes", "Star & Snowflake Schemas", "dbt", "Apache Kafka", "Tableau", "Power BI", "Snowflake", "BigQuery", "Apache Spark"],
+  "Cloud Platforms": ["AWS (S3, SageMaker)", "GCP (Vertex AI, BigQuery)", "Azure ML"],
 }
 
 export const certifications = [
