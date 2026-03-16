@@ -1,32 +1,19 @@
 import { motion } from 'framer-motion'
+import { skills } from '../../data/content'
 
-const techCategories = [
-  {
-    title: 'Languages & Tools',
-    items: ['Python', 'SQL', 'R', 'PySpark', 'Bash', 'Git'],
-    color: '#00f0ff',
-  },
-  {
-    title: 'Machine Learning',
-    items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'XGBoost', 'CNNs', 'LSTMs'],
-    color: '#a855f7',
-  },
-  {
-    title: 'LLMs & MLOps',
-    items: ['LangChain', 'RAG', 'Hugging Face', 'Docker', 'MLflow', 'SageMaker'],
-    color: '#f472b6',
-  },
-  {
-    title: 'Data Engineering & BI',
-    items: ['Talend DI', 'SSAS OLAP', 'dbt', 'Kafka', 'Tableau', 'Power BI'],
-    color: '#3b82f6',
-  },
-  {
-    title: 'Cloud Platforms',
-    items: ['AWS S3', 'GCP Vertex AI', 'BigQuery', 'Azure ML', 'Snowflake', 'Databricks'],
-    color: '#00f0ff',
-  },
-]
+const categoryColors = {
+  'Languages & Tools': '#00f0ff',
+  'Machine Learning': '#a855f7',
+  'LLMs & MLOps': '#f472b6',
+  'Data Engineering & BI': '#3b82f6',
+  'Cloud Platforms': '#00f0ff',
+}
+
+const techCategories = Object.entries(skills).map(([title, items]) => ({
+  title,
+  items,
+  color: categoryColors[title] || '#00f0ff',
+}))
 
 function CategoryPill({ title, items, color, delay }) {
   return (
