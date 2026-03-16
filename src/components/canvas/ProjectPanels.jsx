@@ -206,9 +206,20 @@ export default function ProjectPanels() {
       />
       <DataNodes position={[3, 0.3, -44]} color="#f472b6" count={5} radius={2.2} />
 
+      {/* Project 4: WALL-TR Robot — left side */}
+      <HoloFrame
+        position={[-3, 0.3, -51]}
+        rotation={[0, 0.35, 0]}
+        color="#3b82f6"
+        width={3.4}
+        height={2.2}
+      />
+      <DataNodes position={[-3, 0.3, -51]} color="#3b82f6" count={5} radius={2.2} />
+
       {/* Arcs connecting the panels */}
       <ConnectorArc startZ={-30} endZ={-37} color="#f472b6" />
       <ConnectorArc startZ={-37} endZ={-44} color="#00f0ff" />
+      <ConnectorArc startZ={-44} endZ={-51} color="#3b82f6" />
     </group>
   )
 }

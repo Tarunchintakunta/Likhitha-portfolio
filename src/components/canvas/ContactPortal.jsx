@@ -54,7 +54,7 @@ function EnergyParticles({ count = 30, radius = 2.5, color = '#00f0ff' }) {
 
 /* ─── Main portal ─── */
 export default function ContactPortal() {
-  const center = [0, 0.2, -72]
+  const center = [0, 0.2, -92]
   const coreRef = useRef()
 
   useFrame((state) => {

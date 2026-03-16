@@ -26,12 +26,16 @@ function Lights() {
       <pointLight position={[3, 1, -30]} intensity={0.5} color="#00f0ff" distance={12} />
       <pointLight position={[-3, 1, -37]} intensity={0.5} color="#a855f7" distance={12} />
       <pointLight position={[3, 1, -44]} intensity={0.5} color="#f472b6" distance={12} />
+      <pointLight position={[-3, 1, -51]} intensity={0.5} color="#3b82f6" distance={12} />
       {/* Tech Stack zone */}
-      <pointLight position={[0, 2, -57]} intensity={0.6} color="#f472b6" distance={15} />
-      <pointLight position={[2, -1, -55]} intensity={0.3} color="#00f0ff" distance={10} />
+      <pointLight position={[0, 2, -64]} intensity={0.6} color="#f472b6" distance={15} />
+      <pointLight position={[2, -1, -62]} intensity={0.3} color="#00f0ff" distance={10} />
+      {/* Education zone */}
+      <pointLight position={[0, 2, -78]} intensity={0.5} color="#3b82f6" distance={15} />
+      <pointLight position={[-2, -1, -80]} intensity={0.3} color="#00f0ff" distance={10} />
       {/* Contact zone */}
-      <pointLight position={[0, 2, -72]} intensity={0.5} color="#00f0ff" distance={12} />
-      <pointLight position={[0, -2, -72]} intensity={0.3} color="#a855f7" distance={10} />
+      <pointLight position={[0, 2, -92]} intensity={0.5} color="#00f0ff" distance={12} />
+      <pointLight position={[0, -2, -92]} intensity={0.3} color="#a855f7" distance={10} />
     </>
   )
 }
@@ -66,7 +70,7 @@ export default function Scene() {
         dpr={[1, 2]}
       >
         <color attach="background" args={['#0a0a0f']} />
-        <fog attach="fog" args={['#0a0a0f', 6, 80]} />
+        <fog attach="fog" args={['#0a0a0f', 6, 100]} />
 
         <Suspense fallback={null}>
           <CameraRig />

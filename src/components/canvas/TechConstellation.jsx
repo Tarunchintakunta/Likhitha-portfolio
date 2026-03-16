@@ -118,7 +118,7 @@ function TechNode({ label, color, position }) {
 
 export default function TechConstellation() {
   const groupRef = useRef()
-  const center = [0, 0.2, -57]
+  const center = [0, 0.2, -64]
 
   useFrame((state) => {
     groupRef.current.rotation.y += 0.002

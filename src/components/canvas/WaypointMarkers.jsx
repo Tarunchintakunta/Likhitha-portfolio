@@ -69,21 +69,30 @@ export default function WaypointMarkers() {
       <GlowRing position={[-1.5, 1.5, -34]} color="#3b82f6" size={0.3} />
       <GlowRing position={[2, -0.5, -41]} color="#f472b6" size={0.4} />
       <GlowRing position={[-1, 1, -46]} color="#00f0ff" size={0.35} />
+      <GlowRing position={[-5, 0.5, -51]} color="#3b82f6" size={0.7} />
+      <GlowRing position={[1.5, -0.5, -49]} color="#3b82f6" size={0.3} />
       <ConnectingBeam start={[3, 0.3, -30]} end={[-3, 0.3, -37]} color="#a855f7" />
       <ConnectingBeam start={[-3, 0.3, -37]} end={[3, 0.3, -44]} color="#f472b6" />
+      <ConnectingBeam start={[3, 0.3, -44]} end={[-3, 0.3, -51]} color="#3b82f6" />
 
       {/* ── Tech Stack zone ── */}
-      <GlowRing position={[3, 1.5, -54]} color="#00f0ff" size={0.5} />
-      <GlowRing position={[-3, 1.5, -60]} color="#a855f7" size={0.5} />
-      <GlowRing position={[0, -1.5, -57]} color="#f472b6" size={0.4} />
-      <ConnectingBeam start={[3, 0.3, -44]} end={[0, 0.2, -51]} color="#f472b6" />
-      <ConnectingBeam start={[0, 0.2, -51]} end={[0, 0.2, -57]} color="#00f0ff" />
+      <GlowRing position={[3, 1.5, -61]} color="#00f0ff" size={0.5} />
+      <GlowRing position={[-3, 1.5, -67]} color="#a855f7" size={0.5} />
+      <GlowRing position={[0, -1.5, -64]} color="#f472b6" size={0.4} />
+      <ConnectingBeam start={[-3, 0.3, -51]} end={[0, 0.2, -58]} color="#3b82f6" />
+      <ConnectingBeam start={[0, 0.2, -58]} end={[0, 0.2, -64]} color="#00f0ff" />
+
+      {/* ── Education zone ── */}
+      <GlowRing position={[3, 1, -76]} color="#3b82f6" size={0.5} />
+      <GlowRing position={[-3, 1, -80]} color="#00f0ff" size={0.5} />
+      <GlowRing position={[0, -1.5, -78]} color="#a855f7" size={0.35} />
+      <ConnectingBeam start={[0, 0.2, -67]} end={[0, 0.2, -78]} color="#3b82f6" />
 
       {/* ── Contact zone ── */}
-      <GlowRing position={[2.5, 1, -67]} color="#00f0ff" size={0.4} />
-      <GlowRing position={[-2.5, 1, -70]} color="#a855f7" size={0.4} />
-      <GlowRing position={[0, -1.5, -74]} color="#f472b6" size={0.35} />
-      <ConnectingBeam start={[0, 0.2, -60]} end={[0, 0.2, -72]} color="#00f0ff" />
+      <GlowRing position={[2.5, 1, -87]} color="#00f0ff" size={0.4} />
+      <GlowRing position={[-2.5, 1, -90]} color="#a855f7" size={0.4} />
+      <GlowRing position={[0, -1.5, -94]} color="#f472b6" size={0.35} />
+      <ConnectingBeam start={[0, 0.2, -80]} end={[0, 0.2, -92]} color="#00f0ff" />
     </group>
   )
 }

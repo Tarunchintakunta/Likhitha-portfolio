@@ -11,8 +11,8 @@ export default function Particles({ count = 1800 }) {
     for (let i = 0; i < count; i++) {
       positions[i * 3] = (Math.random() - 0.5) * 80
       positions[i * 3 + 1] = (Math.random() - 0.5) * 40
-      // Full scene depth: z 10 to -90 (covers Hero → Contact)
-      positions[i * 3 + 2] = 10 - Math.random() * 100
+      // Full scene depth: z 10 to -110 (covers Hero → Contact)
+      positions[i * 3 + 2] = 10 - Math.random() * 120
       sizes[i] = Math.random() * 2 + 0.5
     }
     return { positions, sizes }

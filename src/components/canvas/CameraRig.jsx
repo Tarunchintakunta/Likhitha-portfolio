@@ -17,13 +17,18 @@ const cameraPath = new THREE.CatmullRomCurve3([
   new THREE.Vector3(-0.8, 0.3, -37),  // Approach Project 2 (left panel)
   new THREE.Vector3(0, 0.2, -40),     // Center between projects 2 & 3
   new THREE.Vector3(0.8, 0.3, -44),   // Approach Project 3 (right panel)
-  new THREE.Vector3(0, 0.2, -49),     // Transition to Tech Stack
-  new THREE.Vector3(0.3, 0.3, -53),   // Approach constellation
-  new THREE.Vector3(0, 0.2, -57),     // Arrive at Tech Stack center
-  new THREE.Vector3(0, 0.1, -60),     // Settle in front of constellation
-  new THREE.Vector3(0, 0.2, -65),     // Transition to Contact
-  new THREE.Vector3(0, 0.2, -69),     // Approach Contact portal
-  new THREE.Vector3(0, 0.2, -72),     // Final rest — facing the portal
+  new THREE.Vector3(0, 0.2, -47),     // Center between projects 3 & 4
+  new THREE.Vector3(-0.8, 0.3, -51),  // Approach Project 4 (left panel)
+  new THREE.Vector3(0, 0.2, -56),     // Transition to Tech Stack
+  new THREE.Vector3(0.3, 0.3, -60),   // Approach constellation
+  new THREE.Vector3(0, 0.2, -64),     // Arrive at Tech Stack center
+  new THREE.Vector3(0, 0.1, -67),     // Settle in front of constellation
+  new THREE.Vector3(0, 0.2, -73),     // Transition to Education
+  new THREE.Vector3(0.3, 0.3, -77),   // Approach Education
+  new THREE.Vector3(0, 0.2, -81),     // Education center
+  new THREE.Vector3(0, 0.2, -86),     // Transition to Contact
+  new THREE.Vector3(0, 0.2, -89),     // Approach Contact portal
+  new THREE.Vector3(0, 0.2, -92),     // Final rest — facing the portal
 ])
 
 // Where the camera looks — always slightly ahead and centered
@@ -41,13 +46,18 @@ const lookAtPath = new THREE.CatmullRomCurve3([
   new THREE.Vector3(-0.5, 0, -39),
   new THREE.Vector3(0, 0, -42),
   new THREE.Vector3(0.5, 0, -46),
-  new THREE.Vector3(0, 0, -52),
-  new THREE.Vector3(0, 0.2, -56),
-  new THREE.Vector3(0, 0.2, -59),
+  new THREE.Vector3(0, 0, -49),
+  new THREE.Vector3(-0.5, 0, -53),
+  new THREE.Vector3(0, 0, -59),
   new THREE.Vector3(0, 0.2, -63),
-  new THREE.Vector3(0, 0.2, -68),
-  new THREE.Vector3(0, 0.2, -71),
+  new THREE.Vector3(0, 0.2, -66),
+  new THREE.Vector3(0, 0.2, -70),
   new THREE.Vector3(0, 0.2, -76),
+  new THREE.Vector3(0, 0.2, -80),
+  new THREE.Vector3(0, 0.2, -84),
+  new THREE.Vector3(0, 0.2, -89),
+  new THREE.Vector3(0, 0.2, -92),
+  new THREE.Vector3(0, 0.2, -96),
 ])
 
 export default function CameraRig() {
